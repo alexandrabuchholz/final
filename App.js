@@ -182,7 +182,7 @@ export default class App extends React.Component {
   // The UI for what appears when you swipe left
   renderSwipeLeft(data, secId, rowId, rowMap) {
     return (
-      <Button full danger onPress={() => this.deletePuppies(data, secId, rowId, rowMap)}>
+      <Button full danger onPress={() => this.downvotePuppies(data, secId, rowId, rowMap)}>
         <Icon active name="sad" />
       </Button>
     )
